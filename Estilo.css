@@ -1,0 +1,89 @@
+#Principal{
+    width:1200px;
+    margin:20px auto;
+    border:solid;
+color: black;
+    border-width: thin;
+}
+
+
+
+header{
+ border: solid;
+    
+    
+    color: black;
+    font-size: 35px;
+    margin:auto;
+    
+}
+p{
+  
+}
+nav{
+    border: solid;
+    border-bottom-width: thin;
+    border-right-width: thin;
+    border-left-width: thin;
+    border-top-width: thin;
+    
+    
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#columnaIzq{
+    width:250px;
+    border: solid;
+    color: black;
+    border-width: thin;
+    margin: 10px;
+    float:left;
+}
+#Enlaces{
+    font-size: 29px;
+}
+
+Section{
+    width:600px;
+    border: solid;
+    color: black;
+    float:left;
+    margin:10px;
+    border-width: thin;
+    
+}
+
+.sinImagen{
+    width:75px;
+}
+.Imagen{
+    width:75px;
+}
+#SeccionD{
+    width:300px;
+    margin:10px;
+    border: solid;
+    color:black;
+    border-width: thin;
+    float:left;
+}
+
+
+footer{
+    width:250px;
+
+   
+    border-width: thin;
+    margin: 25px;
+    
+}
+#Fot{
+    text-align: right;
+    
+    margin:10px;
+    border:solid;
+    border-width: thin;
+    
+}

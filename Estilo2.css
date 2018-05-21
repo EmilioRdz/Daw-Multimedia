@@ -1,0 +1,27 @@
+h1{
+    color:grey;
+}
+#Principal{
+    width:850px;
+}
+h2{
+    color:blue;
+}
+#tabla td{
+
+    padding: 20px;   
+
+}
+
+#tabla {
+
+    border: solid black;
+
+  border-width: thin;
+
+}
+#Titulo{
+    text-align: center;
+}
+
+   
