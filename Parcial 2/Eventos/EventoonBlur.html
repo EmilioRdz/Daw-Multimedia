@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html>
+
+    <head>
+
+        <title> OnBlur </title>
+
+        <meta charset="utf-8"/>
+
+        <script>
+function efecto(id){
+    var elem = document.getElementById(id).parentElement;
+    elem.setAttribute("class", "effect campo");
+}
+            
+function unefecto(id){
+    var elem= document.getElementById(id).parentElement;
+    elem.classList.remove("effect");
+}
+           
+        </script>
+
+    </head>
+<div class="campo">
+    <label for="txtName">Nombre</label>
+    <input type="text" name="txtName" id="txt_1" onfocus="efecto(this.id)" onblur="unefecto(this.id)">
+    </div>
+    
+
+</html>
