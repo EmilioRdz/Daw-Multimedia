@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+  <link media="screen" rel="stylesheet" type="text/css" href="ex_02.css">
+
+<meta charset="UTF-8"/>
+
+<meta name="autor" content="Pepe Gonzales Perez" />
+
+<meta name="matricula" content="1702304" />
+
+<meta name="grupo" content="TI32" />
+
+<title>Ex_02</title>
+
+</head>
+
+<body>
+
+<h1> Mi lista de libros </ h1>
+
+<script>
+
+var libros = [
+
+  {title: 'Corazon de piedra Verde',
+
+   img: 'https://porrua.mx/images/productos/books/codbarl/l9789707806542.jpg',
+
+   autor: 'Salvador de Madariaga',
+
+   alreadyRead: false
+
+  },
+
+  {título: 'La Odisea',
+
+   img: 'http://efrueda.com/wp-content/uploads/2015/12/La_Odisea.jpg',
+
+   autor: 'Homero',
+
+   alreadyRead: true
+
+  }];
+
+
+
+var libroList = document.createElement('ul');
+
+for (var i = 0; i <libros.length; i ++) {
+
+  var libroElem = document.createElement('li');
+
+  var libroImg = document.createElement('img');
+
+  libroImg.src = libros[i].img;
+
+  libroElem.appendChild(libroImg);
+
+  var libroDesc = document.createTextNode (libros[i].title + ' por ' + libros[i].autor);
+
+  libroElem.appendChild(libroDesc);
+
+  if (libros[i].alreadyRead) {
+
+    libroElem.style.color = 'grey';
+
+  }
+
+  libroList.appendChild(libroElem);
+
+}
+
+document.body.appendChild(libroList);
+
+</script>
+
+
+
+</body>
+
+</html>

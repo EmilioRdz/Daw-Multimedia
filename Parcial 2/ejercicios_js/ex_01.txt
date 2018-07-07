@@ -1,0 +1,11 @@
+onload
+<ul class="listado" >
+    <li> Nickname: <span id="Joaquin Perez Gonzales "></span></li>
+    <li>Favorites: <span id="me gusta el paracaidismo "></span></li>
+    <li>Hometown: <span id="puebla,pue"></span></li>
+   </ul>
+Agregar un onload sustituyendo el onclick 
+var libroImg = document.createElement('img');
+libroImg.src = libros[i].img;
+libroElem.appendChild(libroImg);
+document.body.appendChild(libroList);

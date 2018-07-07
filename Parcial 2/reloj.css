@@ -1,0 +1,58 @@
+#startTime{
+
+    background: blue;
+
+    display: block;
+
+    margin: 0 0 200px 150px;
+
+    text-align: center;
+
+    width: 500px;
+
+}
+
+
+
+@Font-face{
+
+        font-family:DS-DIGI;
+
+    src: url(DS-DIGI.TTF);
+
+        
+
+    }
+
+
+
+
+
+#txt{
+
+      font-family: DS-DIGI;  
+
+    font-size: 200px;
+
+    color: green;
+
+    background-color: blue;
+
+    width: 800px;
+
+    text-align: center;
+
+    margin: 0 auto;
+
+    border-width: 500px;
+
+    border-color: green;
+
+    border-radius: 50px;
+
+    -moz-border-radius:50px;
+
+}
+
+
+

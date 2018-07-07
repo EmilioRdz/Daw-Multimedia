@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <link href="javascript42.css" type="text/css" media="screen" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+<head>
+    <title>Javascript42</title>
+    <script>
+    function iniciar(){
+        var labels=document.getElementsByClassName("label");
+        
+        for(x=0; x<labels.length;x++){
+            labels[x].style.color="Blue"
+        }
+        var negritas= document.getElementsByTagName("strong");
+        for(x=0; x<negritas.length;x++){
+            negritas[x].style.textTransform="uppercase";
+        }
+        document.getElementById("apellido").style.fontStyle="italic";
+        document.querySelectorAll("#apellido strong")[0].style.fontStyle="normal";
+        var parrafo=document.createElement("p");
+        
+        var contenido = document.createTextNode("Hola Mundo!");
+        
+        parrafo.appendChild(contenido);
+        
+        document.body.appendChild(parrafo);
+        
+        
+        var tds=document.getElementsByTagName("td");
+        for(x=0; x<tds.length;x++){
+            var texto= document.createTextNode(x+1);
+            tds[x].appendChild(texto);
+        }
+        }
+        
+    </script>
+</head>
+<body onload="iniciar();">
+<p id="titulo" class="label">Esta pagina es <strong>muy sencilla</strong> </p>
+    <p id="nombre" class="label"><strong>Nombre</strong>  Emilio</p>
+     <p id="apellido" class="label"><strong>apellido</strong>   Rodriguez</p>
+    
+    <section id="Tabla">
+               
+               <table border=1 cellpadding=30 cellspacing=0>
+               <tr>
+                   <td></td><td> </td><td></td>
+                   </tr>     
+               <tr>
+                  <td></td><td></td><td></td>
+                   </tr>
+                   <tr>
+                   <td></td><td></td><td></td>
+                   </tr>
+                   
+               </table>
+           </section>
+</body>
+
+</html>
